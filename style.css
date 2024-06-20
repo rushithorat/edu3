@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.test-container{
+    height: 75vh;
+    width: 100%;
+    background-color: #e5eefa;
+    margin-top: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test-container1{
+    height: 100%;
+    width: 33%;
+    
+
+}
+.test-container1 h3{
+    font-size: 1.4vw;
+    color: #4f97ea;
+    padding: .5vw 0;
+    padding-top: 10vw;
+    padding-left: 9vw;
+    }
+    .test-container1 h1{
+    font-size: 2.4vw;
+    font-weight: 550;
+    color: #003078;
+    padding: .5vw 0;
+    padding-left: 9vw;
+    padding-right: 3vw;
+    }
+    .test-container1 h4{
+    font-size: 1.1vw;
+    padding: .5vw 0;
+    color: gray;
+    padding-left: 9vw;
+    font-weight: 300;
+    
+    }
+    .swiper {
+        width: 100%;
+        height: 100%;
+      }
+  
+      .test {
+         text-align: center; 
+        font-size: 18px;
+        /* background: #fff; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  .test-container2{
+    height: 90%;
+    width: 65%;
+    margin-left: 1%;
+    /* background-color: red; */
+  }
+  .test-cards{
+    height: 85%;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 15%;
+
+    border-radius: 12px;
+    border-top: 7px solid #4f97ea;
+    background-color: white;
+  }
+  .img{
+    height: 9vw;
+    width: 9vw;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 8%;
+    bottom: 68%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+ .test-cards h3{
+    color: #4f97ea;
+    padding-left: 12vw;
+    padding-top: 3vw;
+    font-size: 1.1vw;
+ }
+ .test-cards h1{
+    color: #003078;
+  padding:0 1.5vw;
+    padding-top: 2.5vw;
+    font-size: 1.4vw;
+    text-align: start;
+ }
+ .test-cards h4{
+    color: gray;
+    font-size: 1vw;
+  font-weight: 300;
+text-align: start;
+  line-height: 1.7vw;
+  padding: 0 1.5vw;
+  padding-top: 2vw;
+  text-align: justify;
+ }
